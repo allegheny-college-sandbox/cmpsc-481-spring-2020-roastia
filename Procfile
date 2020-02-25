@@ -1,1 +1,1 @@
-web: npm start --prefix packages/client/scripts
+web: docker-compose up
