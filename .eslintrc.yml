@@ -1,0 +1,37 @@
+env:
+  browser: true
+  es6: true
+extends:
+  - 'eslint:recommended'
+  - prettier
+  - 'plugin:cypress/recommended'
+globals:
+  Atomics: readonly
+  SharedArrayBuffer: readonly
+parserOptions:
+  ecmaFeatures:
+    jsx: true
+  ecmaVersion: 2018
+plugins:
+  - react
+  - cypress
+rules:
+  indent:
+    - error
+    - 2
+  linebreak-style:
+    - warn
+    - unix
+  quotes:
+    - off
+    - single
+  semi:
+    - warn
+    - always
+  block-spacing:
+    - warn
+    - always
+  eol-last:
+    - warn
+    - always
+
