@@ -1,3 +1,5 @@
 {
+  "name": "Roastia Test",
+  "website": "https://roastia-allegheny.herokuapp.com",
   "stack": "container"
 }
