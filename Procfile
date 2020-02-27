@@ -1,1 +1,1 @@
-web: docker build . -t Roastia
+web: docker build . -t roastia
