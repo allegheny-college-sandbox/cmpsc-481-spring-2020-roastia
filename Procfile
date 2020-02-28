@@ -1,1 +1,1 @@
-web: docker build . -t roastia
+web: docker-compose up
