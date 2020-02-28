@@ -9,7 +9,7 @@ ARG NODE_ENV=production
 RUN yarn --silent
 ENV PATH /usr/src/app/react_app/node_modules/.bin:$PATH
 
-COPY client/. /usr/src/react_app/
+COPY packages/client/. /usr/src/react_app/
 ENV SASS_PATH node_modules:src/sass
 RUN yarn run build --production
 
