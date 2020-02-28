@@ -3,7 +3,7 @@ WORKDIR /usr/src/react_app
 
 RUN apk add yarn
 
-COPY client/package.json client/yarn.lock ./
+COPY packages/client/package.json packages/client/yarn.lock ./
 
 ARG NODE_ENV=production
 RUN yarn --silent
