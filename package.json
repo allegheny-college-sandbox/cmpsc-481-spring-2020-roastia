@@ -14,7 +14,7 @@
     "test:loud": "concurrently --names \"Server,React,Test\" -ks first \"yarn server:production\" \"BROWSER=none yarn client\" \"yarn cypress run\""
   },
   "license": "MIT",
-  "homepage": "https://roastia.herokuapp.com/",
+  "homepage": "https://roastia-allegheny.herokuapp.com/",
   "dependencies": {
     "client": "file:packages/client",
     "server": "file:packages/server",
